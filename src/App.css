@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+body{
+  /* background-color: aquamarine;*/
+  background-image:url(images/image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.navbar{
+  background-color: red;
+}
+.row{
+  padding-left: 70px;
+}
+.i{
+  cursor: pointer;
+}
