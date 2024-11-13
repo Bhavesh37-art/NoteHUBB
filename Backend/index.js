@@ -4,9 +4,7 @@ var cors=require("cors");
 const app=express();
 const PORT=5000;
 connectTomongo(); 
-// app.use('/',(req,res)=>{  
-//     res.send('This is home page !!')
-// })
+
 app.use(cors());
 app.use(express.json());
 

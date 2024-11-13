@@ -10,7 +10,7 @@ const Signup = () => {
 const handleSubmit= async (e)=>{
     e.preventDefault();
     const{name,email,password}=credentials;
-    const response=await fetch("http://localhost:5000/api/auth/CreateUser",{
+    const response=await fetch("https://notehubb-1.onrender.com/api/auth/CreateUser",{
         method:"POST",
         headers:{
           "Content-Type":"application/json"
