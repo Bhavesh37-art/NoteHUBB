@@ -3,7 +3,7 @@ import React,{useContext} from 'react'
 const About =()=>{
     return(
 <>
-<h1>THIS IS ABOUT this is pushed code!!!</h1>
+<h1>THIS IS ABOUT code not pushed into site!!!</h1>
 </>
     )
 }
