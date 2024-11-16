@@ -1,10 +1,9 @@
 import './App.css';
-import { BrowserRouter as Router,Switch,Route,link, Routes } from 'react-router-dom';
+import { BrowserRouter as Router,Route, Routes } from 'react-router-dom';
 import Navbar from './component/Navbar'
 import Home from './component/Home'
 import About from './component/About'
 import NoteState from './context/notes/NoteState';
-import Alert from './component/Alert';
 import Login from './component/Login';
 import Signup from './component/Signup';
 function App() {
@@ -13,7 +12,6 @@ function App() {
 <NoteState>
 <Router>
 <Navbar/>
-{/* <Alert message="This is Alert"/> */}
   <div>
     <Routes>
       <Route path='/' element={
